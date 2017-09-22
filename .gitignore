@@ -1,0 +1,4 @@
+# composer vendor dir
+/vendor
+### JavaScript Dependencies
+/node_modules/

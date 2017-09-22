@@ -1,0 +1,130 @@
+[
+    {
+        "id": 3,
+        "name": "Mr CHOC",
+        "description": "Strawberry Yogurt",
+        "price": 76,
+        "category": "Chocolad",
+        "image": "images/store/Products/Product3/4a0329.png"
+    },
+    {
+        "id": 4,
+        "name": "Mr CHOC",
+        "description": "Hazelnut Crisp",
+        "price": 54,
+        "category": "Chocolad",
+        "image": "images/store/Products/Product4/57552f.png"
+    },
+    {
+        "id": 5,
+        "name": "Mr CHOC",
+        "description": "Almond Caramel",
+        "price": 65,
+        "category": "Chocolad",
+        "image": "images/store/Products/Product5/30dccb.png"
+    },
+    {
+        "id": 6,
+        "name": "Kaffee Sahne",
+        "description": "Classic",
+        "price": 59,
+        "category": "Chocolad",
+        "image": "images/store/Products/Product6/9e6ad1.png"
+    },
+    {
+        "id": 7,
+        "name": "Studentska",
+        "description": "Cherry",
+        "price": 34,
+        "category": "Chocolad",
+        "image": "images/store/Products/Product7/a98c4e.png"
+    },
+    {
+        "id": 8,
+        "name": "Studentska",
+        "description": "Grusha",
+        "price": 23,
+        "category": "Chocolad",
+        "image": "images/store/Products/Product8/f3aeb4.png"
+    },
+    {
+        "id": 9,
+        "name": "Studentska",
+        "description": "Malina",
+        "price": 22,
+        "category": "Chocolad",
+        "image": "images/store/Products/Product9/ca09c2.png"
+    },
+    {
+        "id": 10,
+        "name": "Cachet",
+        "description": "Dark Chocolate",
+        "price": 50,
+        "category": "Chocolad",
+        "image": "images/store/Products/Product10/a17673.png"
+    },
+    {
+        "id": 11,
+        "name": "M.Truffout",
+        "description": "Grazioso Selection",
+        "price": 120,
+        "category": "Chocolad",
+        "image": "images/store/Products/Product11/518473.png"
+    },
+    {
+        "id": 12,
+        "name": "Cachet",
+        "description": "Milk Chocolate",
+        "price": 55,
+        "category": "Chocolad",
+        "image": "images/store/Products/Product12/d4167e.png"
+    },
+    {
+        "id": 13,
+        "name": "Cachet",
+        "description": "Milk Chocolat",
+        "price": 44,
+        "category": "Chocolad",
+        "image": "images/store/Products/Product13/034a10.png"
+    },
+    {
+        "id": 14,
+        "name": "Cachet",
+        "description": "Extra Noir",
+        "price": 32,
+        "category": "Chocolad",
+        "image": "images/store/Products/Product14/a9c08f.png"
+    },
+    {
+        "id": 15,
+        "name": "Lavazza",
+        "description": "Qualita ORO",
+        "price": 98,
+        "category": "Cofe",
+        "image": "images/store/Products/Product15/367fc0.png"
+    },
+    {
+        "id": 16,
+        "name": "Cafe",
+        "description": "d`Or",
+        "price": 68,
+        "category": "Cofe",
+        "image": "images/store/Products/Product16/c94185.png"
+    },
+    {
+        "id": 17,
+        "name": "Chocofino",
+        "description": "Red",
+        "price": 50,
+        "category": "Food",
+        "image": "images/store/Products/Product17/1d2be6.png"
+    },
+    {
+        "id": 18,
+        "name": "Chocofino",
+        "description": "green",
+        "price": 64,
+        "category": "Food",
+        "image": "images/store/Products/Product18/32a5b8.png"
+    }
+]

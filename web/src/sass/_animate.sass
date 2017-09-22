@@ -1,0 +1,61 @@
+
+  
+//=========================
+//Animation testing
+//==========================
+.cardlist
+    background-color: white
+    position: relative
+
+.itemoncard.ng-move,
+.itemoncard.ng-enter,
+.itemoncard.ng-leave 
+  transition: all linear  0.5s
+
+
+.itemoncard.ng-leave.ng-leave-active,
+.itemoncard.ng-move,
+.itemoncard.ng-enter 
+  opacity: 0
+  max-height: 0
+
+
+.itemoncard.ng-leave,
+.itemoncard.ng-move.ng-move-active,
+.itemoncard.ng-enter.ng-enter-active 
+  opacity: 1
+  max-height: 30px
+
+.cardbutton.ng-hide-add,
+.cardbutton.ng-hide-remove 
+  transition: all linear 0.2s
+
+.cardbutton.ng-hide
+    opacity: 0
+
+.itemcnt.ng-hide-add,
+.itemcnt.ng-hide-remove 
+  transition: all linear 0.2s
+.itemcnt.ng-hide
+    opacity: 0
+    transform: rotate(180deg)
+
+.popup.ng-hide-add,
+.popup.ng-hide-remove 
+  transition: all linear 0.2s
+
+.popup.ng-hide-add .modal,
+.popup.ng-hide-remove .modal
+  transition: all linear 0.2s
+.ng-hide .modal
+  opacity: 0
+
+.popup.ng-hide-add .modal-content,
+.popup.ng-hide-remove .modal-content
+  transition: all linear 0.2s
+.ng-hide .modal-content
+  transform: scale(0.5)
+  
+    
+
+

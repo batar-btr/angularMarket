@@ -1,0 +1,133 @@
+a:hover {
+    text-decoration: none;
+}
+
+body {
+    background-image: linear-gradient(to left, #FF8800, orange, #FF8800 );
+    background-size: 100% 400px;
+    background-repeat: no-repeat;
+    color: black;
+    font-size: 16px;
+    font-family: Lobster;
+}
+
+.item-card {
+    text-align: center;
+    user-select: none;
+    font-family: Roboto-Bold;
+    margin-bottom: 30px
+}
+
+.item-card-wrap {
+    width: 96%;
+    margin: 0 auto;
+    box-shadow: 0 3px 6px gray;
+    border-radius: 10px;
+    background-color: white;
+    padding: 30px 0;
+    text-align: center;
+    img {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+}
+
+.wrapcard {
+    display: inline-block;
+    position: relative;
+}
+
+.tocard {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    line-height: 14px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: orange;
+    border-radius: 17px;
+    margin: 10px 0;
+    transition: all 0.2s linear;
+    position: relative;
+    user-select: none;
+}
+
+.tocard:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.tocard:focus {
+    text-decoration: none;
+    color: #fff;
+}
+
+.tocard:visited {
+    color: white;
+}
+
+.oncard {
+    padding-right: 40px;
+    background-color: forestgreen;
+}
+
+.test {
+    background-color: blue;
+    padding-right: 40px;
+}
+
+.itemcnt {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #fff;
+    top: 17px;
+    right: 9px;
+    opacity: 1;
+    transform-origin: 50% 50%;
+    transform: rotate(0);
+}
+
+.itemcnt span {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.cardbutton {
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+    display: block;
+    width: 34px;
+    height: 34px;
+    background-color: gray;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    opacity: 1;
+}
+
+.btnremove {
+    left: -50px;
+}
+
+.btnadd {
+    right: -50px;
+}
+
+.cardbutton i {
+    padding-top: 8px;
+}
+
+.preloader {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+    background-color: gray;
+}
