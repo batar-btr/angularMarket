@@ -26,15 +26,64 @@ body {
     background-color: white;
     padding: 30px 0;
     text-align: center;
+    position: relative;
+    @media screen {
+        @media (max-width: 520px) {
+            padding: 12px 0;
+        }
+    }
     img {
         max-width: 90%;
         margin: 0 auto;
+    }
+    .flag {
+        background-color: #9BC53D;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        position: absolute;
+        top: -5px;
+        right: -5px;
+        box-shadow: 0 2px 3px;
+        overflow: hidden;
+        display: none;
+        span {
+            color: white;
+            font-size: 20px;
+            line-height: 40px;
+            user-select: none;
+            cursor: pointer;
+        }
+        @media screen {
+            @media (max-width: 520px) {
+                display: block;
+            }
+        }
+        // &::after {
+        //     content: "";
+        //     display: block;
+        //     width: 40px;
+        //     height: 40px;
+        //     background-color: white;
+        //     position: absolute;
+        //     top: 40px;
+        //     transform-origin: 50% 50%;
+        //     transform: rotate(45deg);
+        // }
+    }
+    .wrapcard {
+        @media screen {
+            @media (max-width: 520px) {
+                display: none;
+            }
+        }
     }
 }
 
 .wrapcard {
     display: inline-block;
     position: relative;
+
 }
 
 .tocard {
@@ -44,7 +93,7 @@ body {
     line-height: 14px;
     display: inline-block;
     padding: 10px 20px;
-    background-color: orange;
+    background-color: #FF8800;
     border-radius: 17px;
     margin: 10px 0;
     transition: all 0.2s linear;
@@ -112,10 +161,20 @@ body {
 
 .btnremove {
     left: -50px;
+    @media screen {
+        @media (max-width: 580px) {
+            left: -40px;
+        }
+    }
 }
 
 .btnadd {
     right: -50px;
+    @media screen {
+        @media (max-width: 580px) {
+            right: -40px;
+        }
+    }
 }
 
 .cardbutton i {
@@ -131,3 +190,29 @@ body {
     z-index: 99999;
     background-color: gray;
 }
+
+button.current{
+    background-color: green !important;
+    transform: scale(1.2);
+}
+.pagination-bar {
+    font-family: 'Roboto-Bold';
+    color: white;
+    text-align: center;
+    button {
+        background-color: gray;
+        outline: none;
+        border: none;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        margin: 10px;
+        transition: all 0.4s ease-in-out;
+        transform: scale(1);
+        &.current {
+            background-color: green !important;
+            transform: scale(1.2);
+        }
+    }
+}
+

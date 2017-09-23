@@ -27,7 +27,6 @@
         }
        
         this.handler = function (e,b) {           
-            
                 if(checkCard(e)) {
                     e.cnt = 1;
                     card.push(e);
@@ -35,6 +34,7 @@
                     e.cnt = 0;
                     delFromCard(e);
                 }
+                console.log(this);
       
         };
 

@@ -1,13 +1,22 @@
 <div class="modal" ng-click="vm.closeModal($event)">
     <div class="modal-content">
         <div class="box-1">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quam aliquam exercitationem dolorem voluptatibus placeat, architecto a sapiente ut ipsum itaque debitis enim deleniti modi eligendi amet officia fuga dignissimos.
+            <p>{{vm.item.name}}</p>
         </div>
         <div class="box-2">
-            <p>{{vm.cardD.toString()}}</p>
+            <img ng-src="{{vm.item.image}}" alt="">
         </div>
         <div class="box-3">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quam aliquam exercitationem dolorem voluptatibus placeat, architecto a sapiente ut ipsum itaque debitis enim deleniti modi eligendi amet officia fuga dignissimos.</p>
+                <div class="wrapcard">
+                        <div ng-click="vm.addRemove(vm.item, 'minus')" class="cardbutton btnremove" ng-show="vm.check(vm.item)">
+                            <i class="fa fa-minus" aria-hidden="true"></i>
+                        </div>
+                        <div ng-click="vm.addRemove(vm.item, 'plus')" class="cardbutton btnadd" ng-show="vm.check(vm.item)">
+                            <i class="fa fa-plus" aria-hidden="true"></i>
+                        </div>
+                        <a href="" class="tocard" ng-class="{oncard: vm.check(vm.item)}" ng-click = "vm.handler(vm.item)">В корзину</a>
+                        <div class="itemcnt" ng-show="vm.check(vm.item)"><span>{{vm.item.cnt}}</span></div>
+                    </div>
         </div>
         <div class="modal-close" ng-click="vm.item = false">
             <i class="fa fa-times" aria-hidden="true"></i>

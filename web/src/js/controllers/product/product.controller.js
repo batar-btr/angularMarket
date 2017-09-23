@@ -54,7 +54,7 @@
         
 
         function getProducts () {
-            $http.get('../json/products.json').then(function mySuccess(response) {
+            $http.get('web/json/products.json').then(function mySuccess(response) {
                 vm.products = response.data;
                 vm.limitValue = Math.ceil(vm.products.length/vm.itemsPerPage);
                 vm.preloader = true;

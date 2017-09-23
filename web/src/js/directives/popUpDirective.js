@@ -15,7 +15,7 @@
         var directive = {
             link: link,
             restrict: 'EA',
-            templateUrl: '../partials/popup.html',
+            templateUrl: 'web/partials/popup.html',
             scope: {
                 item: "=test"
             },
@@ -38,6 +38,17 @@
                 if (e.target.classList.contains('modal')) {
                     vm.item = false;
                 }
+            };
+            vm.check = function (currentProduct) {
+                
+                var result = false;
+                vm.cardD.forEach(function (element) {
+                    if (currentProduct.id === element.id) {
+                        result = true;
+                    }
+                });
+                return result;
+                
             };
         }
 
