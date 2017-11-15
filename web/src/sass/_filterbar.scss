@@ -1,0 +1,28 @@
+.filter-bar {
+    form {
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        label {
+            font-family: Roboto;
+            font-size: 14px;
+            padding: 40px 0;
+            color: white;
+            &.active {
+                color: black;
+            }
+                
+        }
+        @media screen {
+            @media (max-width: 460px) {
+                flex-direction: column;
+                label {
+                    padding: 5px 0;
+                }
+            }
+        }  
+            
+    }
+    
+}
+    
